@@ -17,6 +17,17 @@ Estos son los comandos básicos para poder ejecutar la API "Prices"
 
 La base de datos h2 se inicializa automáticamente al ejecutar la aplicación. Puede encontrar los script de creación y inicialización de la base de datos en la carpeta resources a través de los archivos [schema.sql](/src/main/resources/schema.sql) y [data.sql](/src/main/resources/data.sql)
 
+Se ha añadido también una version del script de creación de la base de datos donde se implementa la relación de la tabla "Brand" con la tabla "Prices". El script es [dbextra.sql](dbextra.sql)
+
+## Ejemplos de ejecución de la función search
+
+Para más información se puede consultar la documentación de Swagger
+
+```
+applicationDate -> 2020-06-14-10.00.00
+productId -> 35455
+brandId -> 1
+```
 
 ## Instalar dependencias y crear WAR
 

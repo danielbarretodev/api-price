@@ -32,7 +32,8 @@ build/
 .vscode/
 
 ### mvn ###
-target/
+/target/
+!/target/*.war
 mvnw
 mvnw.cmd
 .mvn/
